@@ -8,14 +8,14 @@
 
 <div data-timer="{{component.count}}">
   <p>{{component.text}}</p>
-  <ul class="flex gap-4">
+  <ul class="bg-white-100 flex justify-center gap-2 rounded-2xl py-3">
     {% for item in component.items %}
     <li class="grid">
-      <span class="max-w-max" {{item.attribute}}>00</span>
-      <span>{{item.text}}</span>
+      <span class="max-w-max text-xl font-bold" {{item.attribute}}>00</span>
+      <span class="text-[8px] font-semibold">{{item.text}}</span>
     </li>
     {% if not loop.last %}
-    <li>:</li>
+    <li class="text-xl font-bold">:</li>
     {% endif %} {% endfor %}
   </ul>
 </div>

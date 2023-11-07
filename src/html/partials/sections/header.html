@@ -1,12 +1,19 @@
 {% set section = header %}
 
-<header class="{{section.id}}">
-  <div class="container">
+<header class="{{section.id}} py-5 md:py-8 absolute w-full">
+  <div class="container flex items-center md:gap-x-8 xl:gap-x-10 smOnly:justify-between">
+    {% include 'components/logo.html' %}
+
+    <p
+      class="border-green rounded-[20px] border bg-[#D8F4F0] py-1 pl-[10px] pr-3 text-center text-xs font-semibold md:w-[210px] md:py-2 md:text-sm"
+    >
+      {{section.button}}
+    </p>
     <!-- Put your PNG or JPG images to src/assets/images/sections
       and use ONLY WEBP images (generated automating) from src/assets/images/sections -->
 
     <!-- Example -->
-    <picture>
+    <!-- <picture>
       <source
         media="(min-width: 1280px)"
         type="image/webp"
@@ -32,7 +39,6 @@
         src="./assets/images/sections/{{section.id}}/mobile.webp"
         srcset="./assets/images/sections/{{section.id}}/mobile@2x.webp 2x"
       />
-    </picture>
+    </picture> -->
   </div>
 </header>
-sw

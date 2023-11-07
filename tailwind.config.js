@@ -16,7 +16,7 @@ module.exports = {
     // BASE FONT
     fontFamily: {
       montserrat: ['Montserrat', 'sans-serif'], // class="font-montserrat"
-      // gotham: ['Gotham', 'sans-serif'], // class="font-gotham" (goiteens)
+      lato: ['Lato', 'sans-serif'], // class="font-gotham" (goiteens)
       // exo: ['"Exo 2"', 'sans-serif'],
     },
     // SHADOW
@@ -34,29 +34,43 @@ module.exports = {
       // ALL COLORS
       colors: {
         body: '#ffffff', // class="bg-body"
+
         black: {
           DEFAULT: '#000000', // class="bg-black text-black border-black"
           light: '#202020', // class="bg-black-light text-black-light border-black-light"
-          dark: '#010101', // class="bg-black-dark text-black-dark border-black-dark"
+          dark: '#151E34', // class="bg-black-dark text-black-dark border-black-dark"
+          main: '#151E34',
         },
         white: {
           DEFAULT: '#ffffff', // class="bg-white text-white border-white"
           dark: '#fafafa', // class="bg-white-dark text-white-dark border-white-dark"
+          100: 'rgba(255, 255, 255, 0.50)',
         },
-        accent: '#FF6C00', // class="bg-accent text-accent border-accent"
+        green: {
+          DEFAULT: '#12A682',
+          light: '#EDFCFC',
+        },
+        accent: '#FF6B0A', // class="bg-accent text-accent border-accent"
         primary: '#f1f1f1',
         second: '#f2f2f2',
+        form: {
+          placeholder: '#AEE7D9',
+        },
       },
       // CONTAINER
       container: {
         center: true,
         padding: {
-          DEFAULT: '1.5rem', // 1.25rem (goiteens)
-          sm: '1.5rem', // 1.25rem (goiteens)
+          DEFAULT: '1.25rem', // 1.25rem (goiteens)
+          sm: '1.25rem', // 1.25rem (goiteens)
           md: '2rem', // 2rem (goiteens)
           xl: '2rem', // 2.5rem (goiteens)
           // xxl: '3.5rem', // (goiteens)
         },
+      },
+      //BOX_SHADOW
+      boxShadow: {
+        '3xl': '0px 2px 14px 0px rgba(50, 190, 203, 0.30)',
       },
       // KEYFRAMES
       keyframes: {
