@@ -10,6 +10,9 @@
 @import 'utils/mixins';
 @import 'vendors/tailwind';
 
+@import 'base/section';
+@import 'base/section-title';
+
 @import 'components/input';
 @import 'components/form';
 @import 'components/modal';
