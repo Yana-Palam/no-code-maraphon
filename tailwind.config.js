@@ -15,8 +15,9 @@ module.exports = {
     },
     // BASE FONT
     fontFamily: {
-      montserrat: ['Montserrat', 'sans-serif'], // class="font-montserrat"
-      lato: ['Lato', 'sans-serif'], // class="font-gotham" (goiteens)
+      montserrat: ['Montserrat', 'sans-serif'],
+      lato: ['Lato', 'sans-serif'],
+      // gotham: ['Gotham', 'sans-serif'], // class="font-gotham" (goiteens)
       // exo: ['"Exo 2"', 'sans-serif'],
     },
     // SHADOW
@@ -37,9 +38,9 @@ module.exports = {
 
         black: {
           DEFAULT: '#000000', // class="bg-black text-black border-black"
-          light: '#202020', // class="bg-black-light text-black-light border-black-light"
-          dark: '#151E34', // class="bg-black-dark text-black-dark border-black-dark"
-          main: '#151E34',
+          light: '#202020',
+          dark: '#151E34',
+          border: 'rgba(21, 30, 52, 0.30)',
         },
         white: {
           DEFAULT: '#ffffff', // class="bg-white text-white border-white"
@@ -62,8 +63,8 @@ module.exports = {
       container: {
         center: true,
         padding: {
-          DEFAULT: '1.25rem', // 1.25rem (goiteens)
-          sm: '1.25rem', // 1.25rem (goiteens)
+          DEFAULT: '1.5rem', // 1.25rem (goiteens)
+          sm: '1.5rem', // 1.25rem (goiteens)
           md: '2rem', // 2rem (goiteens)
           xl: '2rem', // 2.5rem (goiteens)
           // xxl: '3.5rem', // (goiteens)

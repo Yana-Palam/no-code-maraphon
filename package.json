@@ -1,17 +1,17 @@
 {
-  "name": "gulp-nunjucks-starter-kit",
+  "name": "no-code-maraphon",
   "version": "3.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "gulp start --development ",
+    "start": "gulp start --development",
     "build": "gulp build --production",
     "prettier": "npx prettier . --write",
     "htmlhint": "npx htmlhint \"**/*.html\""
   },
-  "homepage": "",
-  "repository": "https://github.com/GoWeb-Studio/gulp-nunjucks-starter-kit",
-  "author": "https://github.com/GoWeb-Studio",
+  "homepage": "https://yana-palam.github.io/no-code-maraphon",
+  "repository": "https://github.com/Yana-Palam/no-code-maraphon",
+  "author": "https://github.com/Yana-Palam",
   "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.23.0",
