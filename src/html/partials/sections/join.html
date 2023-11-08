@@ -1,9 +1,0 @@
-{% set section = join %}
-
-<section class="section {{section.id}} bg-green">
-  <div class="container md:flex md:justify-between md:gap-[50px] xl:gap-[154px]">
-    <h2 class="section-title text-white md:w-[318px] xl:w-[646px]">{{section.title}}</h2>
-
-    {% set formBlockId = section.id %}{% include 'components/formBlock.html' %}
-  </div>
-</section>
