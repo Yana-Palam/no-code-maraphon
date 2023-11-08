@@ -8,7 +8,7 @@
 
 <div data-timer="{{component.count}}">
   <p>{{component.text}}</p>
-  <ul class="flex justify-center gap-2 rounded-2xl bg-white-100 py-3">
+  <ul class="timer flex justify-center gap-2">
     {% for item in component.items %}
     <li class="grid">
       <span class="max-w-max text-xl font-bold" {{item.attribute}}>00</span>

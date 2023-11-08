@@ -49,6 +49,7 @@ module.exports = {
         green: {
           DEFAULT: '#12A682',
           light: '#EDFCFC',
+          dark: '#89D3C1',
         },
         accent: '#FF6B0A', // class="bg-accent text-accent border-accent"
         primary: '#f1f1f1',

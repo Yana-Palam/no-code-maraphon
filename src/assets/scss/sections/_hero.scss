@@ -1,6 +1,39 @@
-@media (min-width: 768px) {
-  .hero {
-    background-image: url(../../images/sections/hero/bg.png);
+.hero {
+  background-repeat: no-repeat;
+
+  @media (min-width: 768px) {
+    background-image: url(../images/sections/hero/bg.svg);
     background-position: top right;
+    background-size: 68% 56%;
+  }
+
+  @media (min-width: 1280px) {
+    background-image: url(../images/sections/hero/bg-desktop.svg);
+    background-position: bottom right;
+    background-size: contain;
+  }
+}
+
+.hero-box {
+  position: relative;
+
+  &::after {
+    position: absolute;
+    bottom: 0;
+    display: block;
+    content: '';
+
+    width: 100%;
+    background-image: url(../images/sections/hero/laptops.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    @media (min-width: 768px) {
+      height: 105px;
+    }
+
+    @media (min-width: 1280px) {
+      height: 175px;
+    }
   }
 }

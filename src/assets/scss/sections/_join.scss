@@ -1,0 +1,36 @@
+.join {
+  @apply smOnly:min-h-[604px] smOnly:pb-[300px];
+
+  background-image: url(../images/sections/join/developer.svg),
+    url(../images/sections/join/circle.svg);
+  background-size:
+    280px 240px,
+    100% auto;
+  background-position:
+    bottom,
+    center top 614px;
+
+  background-repeat: no-repeat;
+
+  @media (min-width: 768px) {
+    background-image: url(../images/sections/join/developer.svg),
+      url(../images/sections/join/circle-tablet.svg);
+    background-size:
+      368px 316px,
+      535px auto;
+    background-position:
+      left bottom,
+      left bottom -110px;
+  }
+
+  @media (min-width: 1280px) {
+    background-image: url(../images/sections/join/developer.svg),
+      url(../images/sections/join/circle-desk.svg);
+    background-size:
+      468px 402px,
+      748px auto;
+    background-position:
+      left 112px bottom,
+      left bottom;
+  }
+}
