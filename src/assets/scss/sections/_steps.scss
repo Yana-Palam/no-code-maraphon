@@ -19,7 +19,7 @@
 
   &::before {
     content: '';
-    @apply absolute -left-[10px] top-0 -z-10 block h-16 w-16 md:-left-1/2 md:-top-[3px]  md:h-[100px] md:w-[100px];
+    @apply absolute -left-[10px] top-0 -z-10 block h-16 w-16 md:-left-1/2 md:-top-[8px]  md:h-[100px] md:w-[100px];
 
     background-image: url(../images/sections/steps/slide-star.svg);
     background-size: contain;

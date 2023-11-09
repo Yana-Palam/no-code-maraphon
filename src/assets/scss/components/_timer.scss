@@ -1,7 +1,11 @@
 .join .timer {
-  @apply bg-green-dark rounded-2xl py-3;
+  @apply rounded-2xl bg-green-dark py-3;
 }
 
 .hero .timer {
-  @apply bg-white-100 rounded-2xl py-3;
+  @apply rounded-2xl bg-white-100 py-3;
+}
+
+.modal .timer {
+  @apply rounded-2xl bg-green-light py-3;
 }

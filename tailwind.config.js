@@ -41,6 +41,7 @@ module.exports = {
           light: '#202020',
           dark: '#151E34',
           border: 'rgba(21, 30, 52, 0.30)',
+          placeholder: '#AFB2B2',
         },
         white: {
           DEFAULT: '#ffffff', // class="bg-white text-white border-white"
@@ -51,13 +52,11 @@ module.exports = {
           DEFAULT: '#12A682',
           light: '#EDFCFC',
           dark: '#89D3C1',
+          placeholder: '#AEE7D9',
         },
         accent: '#FF6B0A', // class="bg-accent text-accent border-accent"
         primary: '#f1f1f1',
         second: '#f2f2f2',
-        form: {
-          placeholder: '#AEE7D9',
-        },
       },
       // CONTAINER
       container: {
