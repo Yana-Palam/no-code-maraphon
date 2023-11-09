@@ -296,7 +296,7 @@
 </section>
  
 
-<section class="section">
+<section class="section advantages">
   <div class="container">
     <h2 class="section-title">No-code для тебе, якщо хочеш:</h2>
     <ul class="flex flex-wrap gap-6 md:gap-x-8 xl:justify-center xl:gap-y-10">
@@ -935,23 +935,67 @@
       </svg>
     </button>
 
-    <h2 class="mb-9 text-[20px] font-bold leading-[1.2] md:mb-9 md:text-[24px]">
+    <!-- <h2 class="mb-9 text-[20px] font-bold leading-[1.2] md:mb-9 md:text-[24px]">
       Реєстрація
-    </h2>
+    </h2> -->
 
      
 
-<ul class="steps-bar list-none" data-modalForm-steps>
-  
-  <li class="item active">1</li>
-  
-  <li class="item ">2</li>
-  
-  <li class="item ">3</li>
-  
-</ul>
+<div class="py-4 md:py-10">
+  <p
+    class="mx-auto mb-4 text-center text-sm font-bold uppercase text-black-dark md:mb-5 md:px-[30px] md:text-lg xl:px-[50px] smOnly:w-[213px]"
+  >
+    реєструйся на марафон і отримай бонус
+  </p>
+  <div
+    class="bg-green px-[55px] py-1 text-center text-xs font-semibold text-green-light md:px-5 md:py-3 md:text-sm"
+  >
+    <p class="mx-auto w-[170px]">
+      Конспект “Комбінації клавіш у 
+      <span class="font-lato italic">Webflow”</span>
+    </p>
+  </div>
 
- <form class="mt-5 text-lg md:mt-6" id="modalForm" novalidate autocomplete="on">
+  <div class="pt-4 md:pt-5">
+     
+<!--  -->
+ 
+<!--  -->
+
+
+<div data-timer="<?= $params['START_DATE'] ?>T<?= $params['START_TIME'] ?>:00+03:00">
+  <p></p>
+  <ul class="timer flex justify-center gap-2">
+    
+    <li class="grid">
+      <span class="max-w-max text-xl font-bold" data-day>00</span>
+      <span class="text-[8px] font-semibold">днів</span>
+    </li>
+    
+    <li class="text-xl font-bold">:</li>
+     
+    <li class="grid">
+      <span class="max-w-max text-xl font-bold" data-hours>00</span>
+      <span class="text-[8px] font-semibold">годин</span>
+    </li>
+    
+    <li class="text-xl font-bold">:</li>
+     
+    <li class="grid">
+      <span class="max-w-max text-xl font-bold" data-min>00</span>
+      <span class="text-[8px] font-semibold">хвилин</span>
+    </li>
+    
+    <li class="text-xl font-bold">:</li>
+     
+    <li class="grid">
+      <span class="max-w-max text-xl font-bold" data-sec>00</span>
+      <span class="text-[8px] font-semibold">секунд</span>
+    </li>
+     
+  </ul>
+</div>
+  <form class="mt-5 text-lg md:mt-6" id="" novalidate autocomplete="on">
   <div class="flex flex-wrap gap-[18px]">   
 
 <div class="input-wrap ">
@@ -961,7 +1005,7 @@
   <input
     class="input-field"
     type="text"
-    id="modalForm_input_name"
+    id="_input_name"
     name="name"
     data-field="name"
     data-type="text"
@@ -983,7 +1027,7 @@
   <input
     class="input-field"
     type="email"
-    id="modalForm_input_email"
+    id="_input_email"
     name="email"
     data-field="email"
     data-type="email"
@@ -1005,7 +1049,7 @@
   <input
     class="input-field"
     type="tel"
-    id="modalForm_input_phone"
+    id="_input_phone"
     name="phone"
     data-field="phone"
     data-type="tel"
@@ -1026,6 +1070,10 @@
     Зареєструватися
   </button>
 </form>
+
+  </div>
+</div>
+
 
   </div>
 </div>

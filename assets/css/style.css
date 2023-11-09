@@ -2320,6 +2320,10 @@ video {
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
 }
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
 .py-5 {
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
@@ -2634,11 +2638,11 @@ body {
 }
 .hero .input-field::-moz-placeholder {
   --tw-text-opacity: 1;
-  color: rgb(174 231 217 / var(--tw-text-opacity));
+  color: rgb(175 178 178 / var(--tw-text-opacity));
 }
 .hero .input-field::placeholder {
   --tw-text-opacity: 1;
-  color: rgb(174 231 217 / var(--tw-text-opacity));
+  color: rgb(175 178 178 / var(--tw-text-opacity));
 }
 .hero .input-field:focus {
   --tw-border-opacity: 1;
@@ -2647,6 +2651,46 @@ body {
   outline-offset: 2px;
 }
 .hero .input-field.is-invalid {
+  border-width: 2px;
+  --tw-border-opacity: 1;
+  border-color: rgb(202 56 31 / var(--tw-border-opacity));
+}
+.modal .input-field {
+  height: 2.75rem;
+  width: 100%;
+  border-radius: 0.5rem;
+  border-width: 1px;
+  border-color: rgba(21, 30, 52, 0.30);
+  padding: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.2;
+  --tw-text-opacity: 1;
+  color: rgb(21 30 52 / var(--tw-text-opacity));
+}
+@media (min-width: 768px) {
+  .modal .input-field {
+    font-size: 16px;
+    line-height: 1.25;
+  }
+}
+.modal .input-field::-moz-placeholder {
+  --tw-text-opacity: 1;
+  color: rgb(174 231 217 / var(--tw-text-opacity));
+}
+.modal .input-field::placeholder {
+  --tw-text-opacity: 1;
+  color: rgb(174 231 217 / var(--tw-text-opacity));
+}
+.modal .input-field:focus {
+  --tw-border-opacity: 1;
+  border-color: rgb(255 107 10 / var(--tw-border-opacity));
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+.modal .input-field.is-invalid {
   border-width: 2px;
   --tw-border-opacity: 1;
   border-color: rgb(202 56 31 / var(--tw-border-opacity));
@@ -3601,6 +3645,10 @@ body {
   .xl\:px-8 {
     padding-left: 2rem;
     padding-right: 2rem;
+  }
+  .xl\:px-\[50px\] {
+    padding-left: 50px;
+    padding-right: 50px;
   }
   .xl\:px-\[70px\] {
     padding-left: 70px;
