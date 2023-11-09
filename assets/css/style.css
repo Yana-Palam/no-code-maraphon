@@ -2637,12 +2637,14 @@ body {
   }
 }
 .hero .input-field::-moz-placeholder {
+  font-weight: 500;
   --tw-text-opacity: 1;
-  color: rgb(175 178 178 / var(--tw-text-opacity));
+  color: rgb(174 231 217 / var(--tw-text-opacity));
 }
 .hero .input-field::placeholder {
+  font-weight: 500;
   --tw-text-opacity: 1;
-  color: rgb(175 178 178 / var(--tw-text-opacity));
+  color: rgb(174 231 217 / var(--tw-text-opacity));
 }
 .hero .input-field:focus {
   --tw-border-opacity: 1;
@@ -2677,12 +2679,14 @@ body {
   }
 }
 .modal .input-field::-moz-placeholder {
+  font-weight: 500;
   --tw-text-opacity: 1;
-  color: rgb(174 231 217 / var(--tw-text-opacity));
+  color: rgb(175 178 178 / var(--tw-text-opacity));
 }
 .modal .input-field::placeholder {
+  font-weight: 500;
   --tw-text-opacity: 1;
-  color: rgb(174 231 217 / var(--tw-text-opacity));
+  color: rgb(175 178 178 / var(--tw-text-opacity));
 }
 .modal .input-field:focus {
   --tw-border-opacity: 1;
@@ -2720,10 +2724,12 @@ body {
   }
 }
 .join .input-field::-moz-placeholder {
+  font-weight: 500;
   --tw-text-opacity: 1;
   color: rgb(175 178 178 / var(--tw-text-opacity));
 }
 .join .input-field::placeholder {
+  font-weight: 500;
   --tw-text-opacity: 1;
   color: rgb(175 178 178 / var(--tw-text-opacity));
 }
@@ -2800,6 +2806,13 @@ body {
 .hero .timer {
   border-radius: 1rem;
   background-color: rgba(255, 255, 255, 0.50);
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+.modal .timer {
+  border-radius: 1rem;
+  --tw-bg-opacity: 1;
+  background-color: rgb(237 252 252 / var(--tw-bg-opacity));
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
 }
@@ -3156,7 +3169,7 @@ body {
 @media (min-width: 768px) {
   .steps-day::before {
     left: -50%;
-    top: -3px;
+    top: -8px;
     height: 100px;
     width: 100px;
   }
