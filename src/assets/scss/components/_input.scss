@@ -26,6 +26,22 @@
   @apply h-11 w-full rounded-lg border border-white bg-transparent p-2 px-4 text-[14px] font-medium leading-[1.2] text-white md:text-[16px] md:leading-[1.25];
 
   &::placeholder {
+    @apply text-[#AFB2B2];
+  }
+
+  &:focus {
+    @apply border-accent outline-none;
+  }
+
+  &.is-invalid {
+    @apply border-2 border-[#CA381F];
+  }
+}
+
+.modal .input-field {
+  @apply h-11 w-full rounded-lg border border-black-border  p-2 px-4 text-[14px] font-medium leading-[1.2] text-black-dark md:text-[16px] md:leading-[1.25];
+
+  &::placeholder {
     @apply text-form-placeholder;
   }
 
